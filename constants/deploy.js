@@ -1,0 +1,8 @@
+require('dotenv').config();
+
+module.exports = {
+  MINTER_ADDRESS: process.env.MINTER_ADDRESS,
+  TIME_LOCK_BENEFICIARY_ADDRESS: process.env.TIME_LOCK_BENEFICIARY_ADDRESS,
+
+  SALE_BENEFICIARY_ADDRESS: process.env.SALE_BENEFICIARY_ADDRESS,
+}
